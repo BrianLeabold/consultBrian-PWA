@@ -1,0 +1,17 @@
+#nav{
+  margin-bottom: 10px;
+  border-bottom-left-radius : 15px;
+  border-bottom-right-radius : 15px;
+  background-color: #093c67 ;
+	opacity: .8;
+
+}
+.nav-item {
+  padding-right: 1rem;
+  color:#fff;
+  font-size: 1rem;
+}
+a {
+  color:#fff;
+}
+

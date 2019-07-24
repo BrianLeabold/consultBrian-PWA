@@ -1,0 +1,33 @@
+<a class="portfolio-link portfolio-hover portfolio-hover-content" data-toggle="modal" data-target="#flagstone" (click)="flagstoneModal.show()">
+      <img class="img-fluid hover" src="../../assets/images/photos/flagstone_2.jpg" alt="Flagstone Patio">
+    </a>
+    <div class="portfolio-caption">
+        <h4>Flagstone</h4>
+        <p class="text-muted">Category: <span class="badge badge-secondary">Hardscape &nbsp;</span></p>
+      </div>
+  <div class="modal fade" bsModal #flagstoneModal="bs-modal" [config]="{backdrop: 'static'}" tabindex="-1" role="dialog" aria-labelledby="flagstoneLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <ngb-carousel>
+          <ng-template  ngbSlide>
+            <img class="img-fluid" src="../../assets/images/photos/flagstone_1.jpg" alt="Random first slide">
+          </ng-template>
+          <ng-template ngbSlide>
+            <img class="img-fluid" src="../../assets/images/photos/flagstone_2.jpg" alt="Random second slide">
+          </ng-template>
+        </ngb-carousel>
+        <!-- Carousel End -->
+        <h4 class="modal-title">Flagstone</h4>
+        <p>I dry laid this flagstone patio in the court yard between his rental units.</p>
+          <ul class="list-inline item-intro text-muted">
+            <li>Date: May 2019</li>
+            <li>Client: Steve - Chula Vita</li>
+            <li>Category: <span class="badge badge-secondary">Hardscape &nbsp;</span></li>
+          </ul>
+          <button class="btn mybtn btn-primary" data-dismiss="modal" type="button"  aria-label="Close" 
+        (click)="flagstoneModal.hide()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

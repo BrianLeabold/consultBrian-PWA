@@ -1,0 +1,23 @@
+
+.nav-tab{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+	border-left: 1px solid #093c67 ;
+	border-top: 1px solid #093c67;
+	border-right: 1px solid #093c67;
+}
+.tab-content{
+  padding: 1rem;
+  border-left: 1px #093c67 solid;
+  border-right: 1px #093c67 solid;
+  border-bottom: 1px #093c67 solid;
+}
+.tab-links{
+  color: #7c4200;
+  font-weight: 600;
+}
+
+.carousel-caption{
+  margin-bottom: 120px;
+
+}

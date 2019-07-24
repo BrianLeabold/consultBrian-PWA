@@ -1,0 +1,39 @@
+<a class="portfolio-link" data-toggle="modal" (click)="solarShowerModal.show()">
+  <img class="img-fluid hover" src="../../assets/images/photos/solarshower_4.jpg" alt="Garage #2">
+</a>
+<div class="portfolio-caption">
+    <h4>Solar Shower</h4>
+    <p class="text-muted">Category: <span class="badge badge-success">Recycle &nbsp;</span></p>
+</div>
+<!-- Modal -->
+<div class="modal fade" bsModal #solarShowerModal="bs-modal" [config]="{backdrop: 'static'}" tabindex="-1" role="dialog" aria-labelledby="garage_1Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <ngb-carousel>
+          <ng-template  ngbSlide>
+            <img class="img-fluid" src="../../assets/images/photos/solarshower_4.jpg" alt="First slide">
+          </ng-template>
+          <ng-template  ngbSlide>
+            <img class="img-fluid" src="../../assets/images/photos/solarshower_5.jpg" alt="Second slide">
+          </ng-template>
+          <ng-template  ngbSlide>
+            <img class="img-fluid" src="../../assets/images/photos/solarshower_4.jpg" alt="Third slide">
+          </ng-template>
+          <ng-template  ngbSlide>
+            <img class="img-fluid" src="../../assets/images/photos/solarshower_5.jpg" alt="Fourth slide">
+          </ng-template>
+        </ngb-carousel>
+        <!-- <h4 class="modal-title">Solar Shower</h4> -->
+        <p>Soalr Shower</p>
+        <ul class="list-inline item-intro text-muted">
+          <li>Date: April 2019</li>
+          <li>Client: Julie - Dehesa</li>
+          <li>Category: <span class="badge badge-success">Reduce, Recycle, Reuse &nbsp;</span></li>
+        </ul>
+        <button class="btn btn-primary" data-dismiss="modal" type="button"  aria-label="Close" 
+        (click)="solarShowerModal.hide()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

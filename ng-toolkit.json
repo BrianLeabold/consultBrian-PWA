@@ -1,0 +1,8 @@
+{
+  "universal": {
+    "project": "consultBrian",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  }
+}

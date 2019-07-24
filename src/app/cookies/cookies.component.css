@@ -1,0 +1,16 @@
+div{
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.close{
+  margin-bottom: 1.5rem;
+  position: top
+}
+.cookieMessage{
+	color: #7c4200;
+	font-size: .9rem;
+	font-style:italic;
+	text-align: center;
+}

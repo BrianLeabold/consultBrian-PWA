@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-8 col-xs">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4 index-header">Resources</h1>
+        <p class="lead">Don’t allow the fear of contractors keep you from your dream home. Give me a call, send me an
+          email, or fill out the form below and set up your free consultation. I will help you save money and alleviate
+          the stress of your next project.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="aside" class=" col-md-3 col-xs">
+      <img alt="Logo" src="../../assets/images/BHSlogo.png">
+  </div>
+</div>
