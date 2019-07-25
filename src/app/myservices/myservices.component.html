@@ -4,109 +4,134 @@
       <div class="card rounded-top">
         <div class="card-header">
           <h2 class="mb-1">Services</h2>
-          <p class="short">It's never easy managing large projects. By setting up timelines and goals; while only billing you my actual time, you will save money over using a GC.</p>
+          <p class="short">I provide a wide array of construction services from my customers. 
+          </p>
         </div>
         <div class="card-body">
-          <!-- Services Content Area -->
-				<div id="services" class="row">
-				  <!-- Services Content Nav -->
-				  <div id="col-servicesNav" class="col-md-3 col-sm-3">
-					 <div class="nav flex-column nav-pills" id="servicesNav" role="tablist" aria-orientation="vertical">
-            <a class="nav-link tab-links active" id="remodeling-tab" data-toggle="pill" href="#remodeling" role="tab" aria-controls="remodeling" aria-selected="true">Remodeling</a>
-            <a class="nav-link tab-links" id="siteplan-tab" data-toggle="pill" href="#siteplan" role="tab" aria-controls="siteplan" aria-selected="false">Planning</a>
-						<a class="nav-link tab-links" id="projAssist-tab" data-toggle="pill" href="#projAssist" role="tab" aria-controls="projAssist" aria-selected="false">Assistance</a>
-						<a class="nav-link tab-links" id="matlist-tab" data-toggle="pill" href="#matlist" role="tab" aria-controls="matlist" aria-selected="false">Material Lists</a>
-						<a class="nav-link tab-links" id="liaison-tab" data-toggle="pill" href="#liaison" role="tab" aria-controls="liaison" aria-selected="false">Contractor Liaison</a>
-					 </div>
-				  </div>
-				  <!-- Services Content -->
-				  <div id="col-services" class="col-md-8 col-sm-9">
-					 <div class="tab-content" id="servicesContent">
-						<div class="tab-pane fade show active" id="remodeling" role="tabpanel" aria-labelledby="remodeling-tab">
-							<h2 id="remodeling">Remodeling</h2>
-              <p class="lead">From drywall repair and painting, to full bathroom renovations.
-              </p>
-              <div class="row">
-                <div class="col-md-8 col-xs">
-                  <p>I provide a wide array of construction services from my customers. I have over 25 years experience in interior remodeling. Drywall repair and spackeling is just one of my specialties.</p>
-                  <p>Are you looking to remodel your bathroom? With new cabinets, fixtures, and tile, you will feel like you are visiting a spa every time you walk in.</p>
-                  <p>Decks are a great way to expand your outdoor living space. And a new fence gives you the privacy you need.</p>
-                  <p><a routerLink="/contact">Lets Talk </a></p>
-                </div>
-                <div class="col-md-4 col-xs">
-                  <ul class="list-group">
-                    <li class="list-group-item list-group-item-light short">Painting</li>
-                    <li class="list-group-item list-group-item-light short">Drywall Repair</li>
-                    <li class="list-group-item list-group-item-light short">Framing</li>
-                    <li class="list-group-item list-group-item-light short">Decks/Fences</li>
-                    <li class="list-group-item list-group-item-light short">Tile</li>
-                    <li class="list-group-item list-group-item-light short">Cabinets</li>
-                  </ul>
+        <!-- Services Content Area -->
+          <div class="accordion" id="servicesAccordion">
+            <div  id="remodeling">
+              <div class="card-header">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseRemodeling" aria-expanded="true" aria-controls="collapseRemodeling">
+                    Remodeling
+                </button>
+                <p class="mb-0 active lead">From drywall repair and painting, to decks & fencing
+                </p>
+              </div>
+              <div id="collapseRemodeling" class="collapse show" aria-labelledby="remodeling" data-parent="#servicesAccordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                    <p>I have over 25 years experience in renovating homes. Drywall repair and spackeling are two of my specialties.
+                    </p>
+                    <p><a routerLink="../contact">Schedule your free consultation today</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-light">Painting</li>
+                            <li class="list-group-item list-group-item-light">Drywall & Repairs</li>
+                            <li class="list-group-item list-group-item-light">Framing</li>
+                            <li class="list-group-item list-group-item-light">Decks & Fences</li>
+                          </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="siteplan" role="tabpanel" aria-labelledby="siteplan-tab">
-							<h2 id="sitePlanning">Project and Site Planning</h2>
-              <p class="lead">From advice and assistance on small projects; to design, layout, and
-                  contractor liaison. Do you have an idea or a concept you like? Have a DIY project you
-                  want to tackle? Need a hand with something?
-              </p>
-              <p>
-                  Save yourself time by having me plan your next project. With over 25 years of
-                  experience, I will ensure your project runs smoothly. After discussing the
-                  specifications and time frame, I will create a detailed set of plans for you. From drawings and material lists, to the logistics of getting materials and obtaining
-                  permits; I will save you from the leg work that goes into construction and remodeling
-                  projects.
-                <a routerLink="/contact">Lets Talk </a>
-              </p>
-						</div>
-						<div class="tab-pane fade" id="projAssist" role="tabpanel" aria-labelledby="projAssist-tab">
-							<h2>Project Assistance</h2>
-							<p class="lead">Do you have a D-I-Y project, but need an extra set of hands?
-							</p>
-							<p>We have all been there a time or two. I will lend you the assistance
-                you need and give you my expertise for free. Save yourself some money
-                and call me before one of those high priced contractors.</p>
-                <p>One of those d-i-y projects that most home owners have a tougher
-                  time with is spackeling drywall. “Thin to Win” is my motto here,
-                  multiple coats over a couple of days is the way to go. I can teach
-                  you a couple other tricks to make your project look professional.
-                <a routerLink="/contact"> Lets Talk </a>
-							</p>
+            <div id="assistance">
+              <div class="card-header">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#assistanceCollapse" aria-expanded="false" aria-controls="assistanceCollapse">
+                  Project Assistance
+                </button>
+                <p class="mb-0 lead">
+                  Do you have a D-I-Y project, but need an extra set of hands?
+                </p>
+              </div>
+              <div id="assistanceCollapse" class="collapse" aria-labelledby="assistance" data-parent="#servicesAccordion">
+                <div class="card-body">
+                  <p>We have all been there a time or two. I will lend you the assistance you need and give you my 
+                    expertise for free. Save yourself some money and call me before one of those high priced 
+                    contractors. One of those d-i-y projects that most home owners have a tougher time with is 
+                    spackeling drywall. “Thin to Win” is my motto here, multiple coats over a couple of days is 
+                     to go.
+                  </p>
+                  <p><a routerLink="../contact">Schedule your free consultation today</a></p>
+                </div>
+              </div>
             </div>
-						<div class="tab-pane fade" id="matlist" role="tabpanel" aria-labelledby="matlist-tab">
-						<h2>Material Lists</h2>
-						<p class="lead">Need a material list for a project? I can help with that.
-            </p>
-            <p>So you found a set of plans for a shed you love, but it didn't come
-              with a material list. That's not a problem. <a routerLink="/contact">After your free consultation, </a>
-              I will use those plans and your additional specifications to create a
-              material list for you.
-            </p>
-						<p>Need some help going out and picking up the materials? I will do that
-              too. We both know how busy those stores can be on the weekends and
-              sometimes you can't get good service with the added swell of customers.
-						</p>
-						</div>
-						<div class="tab-pane fade" id="liaison" role="tabpanel" aria-labelledby="liaison-tab">
-						<h2>Contractor Liaison</h2>
-						<p class="lead">Do you need a Project Manager? You get to maintain complete control without having to converse with multiple trades.
-						</p>
-						<p>I have over 20 years experience in construction. This affords you the ability to communicate with the multitude of trades you will encounter during your project.
-              Yet keep things moving when something unexpected comes up.
-            </p>
-            <p>Problem solving is not only about weeding through the issue, but also being knowledgeable enough to make the right decision in regards to the situation.
-              <a routerLink="/contact">Lets Talk </a>
-						</p>
-						</div>
-					 </div>
-				  </div>
-				  <div class="col-md-1"></div>
-				</div>
+            <div id="liaison">
+              <div class="card-header">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#liaisonCollapse" aria-expanded="false" aria-controls="liaisonCollapse">
+                  Contractor Liaison
+                </button>
+                <p class="mb-0 lead">
+                 Do you need a Project Manager?
+                </p>
+                </div>
+                <div id="liaisonCollapse" class="collapse" aria-labelledby="planning" data-parent="#servicesAccordion">
+                  <div class="card-body">
+                    <p>
+                        It's never easy managing large projects. By setting up timelines and goals; while only billing you 
+                        my actual time, you will save money over using a GC. You get to maintain complete control without 
+                        having to converse with multiple trades.
+                    </p>
+                    <p><a routerLink="../contact">Schedule your free consultation today</a></p>
+                  </div>
+                </div>
+            </div>
+            <div id="materialList">
+              <div class="card-header">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#materialListCollapse" aria-expanded="false" aria-controls="materialListCollapse">
+                    Material Lists
+                  </button>
+                  <p class="mb-0 lead">
+                    Need a material list for your next project? I can help you with that. 
+                  </p>
+              </div>
+              <div id="materialListCollapse" class="collapse" aria-labelledby="materialList" data-parent="#servicesAccordion">
+                <div class="card-body">
+                  <p>
+                  So you found a set of plans for a shed you love, but it didn't come with a material list. 
+                  That's not a problem. <a routerLink="../contact">After your free consultation,</a> I will 
+                  use those plans and your additional specifications to create a material list for you.
+                  </p>
+                  <p>
+                  Need some help going out and picking up the materials? I will do that too. We both know 
+                  how busy those stores can be on the weekends and sometimes you can't get good service 
+                  with the added swell of customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="planning">
+              <div class="card-header">
+                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#planningCollapse" aria-expanded="false" aria-controls="planningCollapse">
+                  Planning
+                 </button>
+                 <p class="mb-0 lead">
+                 From advice and assistance on small projects; to design and layout. 
+                 </p>
+              </div>
+              <div id="planningCollapse" class="collapse" aria-labelledby="planning" data-parent="#servicesAccordion">
+                <div class="card-body">
+                  <p>
+                    Do you have an idea or a concept you like? Have a DIY project you want to tackle? 
+                    Need a hand with something?
+                  </p>
+                  <p>
+                    Save yourself time by having me plan your next project. With over 25 years of experience, 
+                    I will ensure your project runs smoothly. After discussing the specifications and 
+                    time frame, I will create a detailed set of plans for you. From drawings and material 
+                    lists, to the logistics of getting materials and obtaining permits; I will save you from 
+                    the leg work that goes into construction and remodeling projects. <a routerLink="../contact">Let's Talk</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 				<!-- End Services Content Area -->
         </div>
       </div>
-
     </div>
     <div id="aside" class=" col-md-3 col-xs-12">
       <img alt="Logo" src="./assets/images/BHSlogo.png">

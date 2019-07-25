@@ -9,3 +9,9 @@
   border: solid 1px;
   border-color: #093c67 ;
 }
+
+button.btn-link{
+  color: #7c4200;
+  font-size: 1.2rem;
+
+}
