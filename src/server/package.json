@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Consult Brian",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -16,5 +16,6 @@
     "jsonwebtoken": "^8.5.0",
     "mongoose": "^5.4.17"
   },
-  "description": ""
+  "description": "Backend Server",
+  "repository": {"url": "https://github.com/BrianLeabold/consultBrian-PWA"}
 }
