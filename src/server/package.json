@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
-    "mongoose": "^5.4.17"
+    "mongoose": "^5.7.5"
   },
   "description": "Backend Server",
   "repository": {"url": "https://github.com/BrianLeabold/consultBrian-PWA"}
